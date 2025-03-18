@@ -2,5 +2,8 @@
     "name": "@trplnr/modrinth-client",
     "version": "0.0.1",
     "license": "MIT",
-    "exports": "./mod.ts"
+    "exports": "./mod.ts",
+    "tasks": {
+        "test": { "command": "deno run --allow-all ./tests/index.ts" }
+    }
 }
